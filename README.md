@@ -4,6 +4,7 @@ My Roblox Cheat Menu Script
 
 # Local Script
 loadstring(game:HttpGet("https://raw.githubusercontent.com/frayray909090/relocation-hub/patch-2/cheat.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frayray909090/relocation-hub/patch-2/script.lua"))()
 
 # Requirements
 
