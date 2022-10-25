@@ -1,5 +1,5 @@
 # relocation-hub
-My Roblox Cheat Menu Script
+My Roblox Cheat GUI Script
 
 
 # Local Script
@@ -7,9 +7,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/frayray909090/relocat
 loadstring(game:HttpGet("https://raw.githubusercontent.com/frayray909090/relocation-hub/patch-2/script.lua"))()
 
 # Requirements
-
-Must Have A Injecter
-
-Must Have Roblox
-
+ must have roblox
+ works on : comet,script ware, synapse x, krnl, oxegen u, fluxus
+ 
+ those are all tested on
 
