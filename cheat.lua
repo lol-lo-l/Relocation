@@ -1,5 +1,5 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Relocation Menu", "DarkTheme")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/frayray909090/relocation-hub/patch-2/LIB.lua"))()
+local Window = Library.CreateLib("Relocation Menu", "Manticore")
 
 -- Main
 local Main = Window:NewTab("Main") 
