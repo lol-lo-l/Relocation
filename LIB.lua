@@ -1,5 +1,4 @@
 --made by espero#3465 / guuest66 or frayray909090
---uses alowed Relocation#8102
 
 local Manticore = {}
 
