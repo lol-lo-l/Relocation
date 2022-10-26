@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/frayray909090/relocation-hub/patch-2/LIB.lua"))()
+local Library = loadstring(game:HttpGet("https://iocore.000webhostapp.com/Manticore.lua"))()
 local Window = Library.CreateLib("Relocation Menu", "Manticore")
 
 -- Main
