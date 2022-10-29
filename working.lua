@@ -4,6 +4,9 @@ local Window = Manticore.CreateLib("Manticore hub", "Manticore")
 local ScriptsT = Window:NewTab("Scripts")
 local ScriptSec = ScriptsT:NewSection("scripts")
 
+local PlayerT= Window:NewTab("Player")
+local PlayertSec = PlayerT:NewSection("Player")
+
 --ui lib
 --made by roblox frayray9090
 --roblox display name guest666
@@ -150,5 +153,9 @@ end)
 
 ScriptSec:NewButton("Robust Admin", "Robust Admin for prisonlife made by me", function() 
 	loadstring(game:HttpGet('https://pastebin.com/raw/Pr7n6inR', true))()
+end)
+
+PlayerSec:NewSlider("WalkSpeed", "run fast", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue) 
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s 
 end)
 
