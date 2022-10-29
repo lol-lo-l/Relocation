@@ -155,7 +155,7 @@ ScriptSec:NewButton("Robust Admin", "Robust Admin for prisonlife made by me", fu
 	loadstring(game:HttpGet('https://pastebin.com/raw/Pr7n6inR', true))()
 end)
 
-PlayerSec:NewSlider("WalkSpeed", "run fast", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue) 
+PlayertSec:NewSlider("WalkSpeed", "run fast", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue) 
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s 
 end)
 
