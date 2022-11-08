@@ -51,15 +51,15 @@ end
 
 
 local themes = {
-    SchemeColor = Color3.fromRGB(227, 27, 27),
+    SchemeColor = Color3.fromRGB(25, 0, 255),
     Background = Color3.fromRGB(0, 0, 0),
-    Header = Color3.fromRGB(128, 128, 128),
+    Header = Color3.fromRGB(0,0,0),
     TextColor = Color3.fromRGB(255,255,255),
     ElementColor = Color3.fromRGB(25, 0, 255)
 }
 local themeStyles = {
     Manticore = {
-        SchemeColor = Color3.fromRGB(227, 27, 27),
+        SchemeColor = Color3.fromRGB(25, 0, 255),
         Background = Color3.fromRGB(0,0,0),
         Header = Color3.fromRGB(0,0,0),
         TextColor = Color3.fromRGB(255,255,255),
